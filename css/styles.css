@@ -1,0 +1,106 @@
+@import url(reset.css);
+@import url(http://fonts.googleapis.com/css?family=Henny+Penny);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:600,400);
+
+.logo {
+	float: left;
+	clear: both;
+	margin: 0 auto;
+}
+
+body {
+	background-image:url('../img/pizza.jpg');
+	background-size: 80%;
+	background-attachment: fixed;
+	font-family: 'Open Sans', sans-serif;
+	padding: 50px;
+	/*margin: 0 auto;	*/
+	clear: both;
+}
+
+h1 {
+	font-family: 'Henny Penny', cursive;
+	font-size: 50px;
+	padding: 15px;
+	margin: 0 auto;
+	clear: both;
+}
+
+.content-box {
+	width: 60%;
+	background-image: url('../img/texture.png');
+	padding: 20px;
+	margin: 0 auto;
+	clear: both;
+}
+
+nav {
+	clear: both;
+	text-align: center;
+}
+
+nav ul {
+	margin: 20px;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	display: inline-block;
+	text-decoration: none;
+	color: #555;
+}
+
+nav a:link,
+nav a:visited {
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #FFF;
+}
+
+footer {
+	float: right;
+	right: 0;
+	bottom: 0;
+	padding: 10px;
+	margin: 15px;
+	border-top: 5px solid #000;
+	border-bottom: 5px solid #000;
+	color: #FFF;
+}
+
+.email {
+	color: #FFF;
+}
+
+.email:hover {
+	color: #000;
+}
+
+.twitter {
+	color: #FFF;
+}
+
+.twitter:hover {
+	color: #FFF;
+}
+
+section {
+	line-height: 1.5em;
+	text-align: center;
+	clear: both;
+}
+
+dt {
+	font-weight: bold;
+	font-size: 125%;
+}
+
+header {
+	font-weight: bold;
+	font-size: 125%;
+}
